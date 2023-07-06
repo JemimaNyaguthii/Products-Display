@@ -1,0 +1,33 @@
+.productImage {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .images {
+    width: 40px;
+    height: 100px;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  h1 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #999;
+  }
+  
