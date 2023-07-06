@@ -20,9 +20,10 @@ const ProductDisplayPage = () => {
     return <p>Loading product details...</p>;
   }
   return (
+    
     <div className='prod'>
-      <h1>Product Display</h1>
-      <div className='prods'>
+  <h1 className='head'>Product Display</h1>
+      <div className='productsImage'>
         <img src={product.thumbnail} alt={product.title} className='images'/>
         <h2>{product.title}</h2>
         <p>{product.brand}</p>

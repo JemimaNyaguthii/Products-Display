@@ -1,33 +1,33 @@
-.productImage {
-    width: 500px;
-    margin: 0 auto;
-    border: 1px solid black;
-    padding: 10px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+  .prod{
+    margin-left: 44%;
+
   }
   
   .images {
-    width: 40px;
-    height: 100px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top:10%;
+    
   
   }
-  
-  
-  h1 {
+  .prod h1{
     font-size: 20px;
-    color: #333;
+    color: #4CAF50;
+    margin-right: 64%;
+
+
   }
   
   h2 {
     font-size: 16px;
-    color: #666;
+    color: #4CAF50;
+    /* margin-left: 40%; */
   }
   
-  p {
+  p{
     font-size: 14px;
-    color: #999;
+    color: #4CAF50;
+    /* margin-left: 40%; */
   }
   

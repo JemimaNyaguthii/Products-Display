@@ -1,43 +1,30 @@
 
 .products {
     width: 500px;
-    margin: 0 auto;
-    border: 1px solid black;
-    
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:8%;
+    margin-left: 4%;
+    margin-top: 2%;
   }
-  
-  .products .btn {
-    margin-top: 10px;
-  }
-  
   .products .add {
     background-color: #333;
     color: white;
     border: none;
-    padding: 10px;
-    cursor: pointer;
   }
-  
   .products .view {
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px;
-    cursor: pointer;
   }
-  
   .products img {
     width: 200px;
     height: 200px;
-    margin-bottom: 10px;
   }
-  
   .products h3 {
     margin: 0;
-    padding: 0;
     font-size: 16px;
+    color: #4CAF50;
   }
   
  
-  
