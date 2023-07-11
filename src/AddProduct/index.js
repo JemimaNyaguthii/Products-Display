@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import './style.css'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 const AddProductForm = () => {
-  const [name, setName] = useState('');
-  const [price, setPrice] = useState('');
+  const [name, setName] = useState("");
+  const [price, setPrice] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
   };
@@ -13,15 +14,25 @@ const AddProductForm = () => {
       <form onSubmit={handleSubmit}>
         <label>
           Name:
-          <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
         </label>
         <br />
         <label>
           Price:
-          <input type="text" value={price} onChange={(e) => setPrice(e.target.value)} />
+          <input
+            type="text"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+          />
         </label>
         <br />
-        <button type="submit">Add</button>
+        <Link to={`/products/`} className="btn">
+          <button type="submit">Add</button>
+        </Link>
       </form>
     </div>
   );

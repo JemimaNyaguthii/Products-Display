@@ -5,7 +5,7 @@ const Login=()=>{
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     console.log(username);
-    const handleSubmit = async (e) => {
+    const handleSubmit = async(e)=> {
         e.preventDefault();
         const data = {
             username: username,
@@ -30,15 +30,15 @@ const Login=()=>{
         <div>
             <form className="form" onSubmit={handleSubmit}>
                 <h1>Login</h1>
-                <input type="text" placeholder="Enter username"
-                onChange ={(e)=> setUsername (e.target.value)}/>
+                <input type="text"placeholder="Enter username"
+                onChange ={(e)=> setUsername(e.target.value)}/>
                 <br/>
                 <br/>
-                <input type="text" placeholder="Enter password"
-                onChange={(e)=> setPassword (e.target.value)}/>
+                <input type="text"placeholder="Enter password"
+                onChange={(e)=>setPassword(e.target.value)}/>
                 <br/>
                 <br/>
-                <Link to={`/Products/` }>
+                <Link to={`/Products/`}>
             <button type="submit" className="view">Login</button >
           </Link>
             </form>
